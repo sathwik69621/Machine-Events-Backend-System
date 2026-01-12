@@ -1,0 +1,10 @@
+C:\Users\uppus\machine-events\src\main\java\com\factory\machine_events\controller\EventController.java
+C:\Users\uppus\machine-events\src\main\java\com\factory\machine_events\dto\BatchResponseDTO.java
+C:\Users\uppus\machine-events\src\main\java\com\factory\machine_events\dto\EventRequestDTO.java
+C:\Users\uppus\machine-events\src\main\java\com\factory\machine_events\dto\RejectionDTO.java
+C:\Users\uppus\machine-events\src\main\java\com\factory\machine_events\dto\StatsResponseDTO.java
+C:\Users\uppus\machine-events\src\main\java\com\factory\machine_events\dto\TopDefectLineDTO.java
+C:\Users\uppus\machine-events\src\main\java\com\factory\machine_events\entity\EventEntity.java
+C:\Users\uppus\machine-events\src\main\java\com\factory\machine_events\MachineEventsApplication.java
+C:\Users\uppus\machine-events\src\main\java\com\factory\machine_events\repository\EventRepository.java
+C:\Users\uppus\machine-events\src\main\java\com\factory\machine_events\service\EventService.java

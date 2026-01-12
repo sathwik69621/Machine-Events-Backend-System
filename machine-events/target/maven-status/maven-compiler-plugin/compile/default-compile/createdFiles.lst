@@ -1,0 +1,13 @@
+com\factory\machine_events\MachineEventsApplication.class
+com\factory\machine_events\service\EventService.class
+com\factory\machine_events\controller\EventController.class
+com\factory\machine_events\dto\BatchResponseDTO.class
+com\factory\machine_events\dto\RejectionDTO.class
+com\factory\machine_events\dto\StatsResponseDTO.class
+com\factory\machine_events\dto\TopDefectLineDTO$TopDefectLineDTOBuilder.class
+com\factory\machine_events\entity\EventEntity$EventEntityBuilder.class
+com\factory\machine_events\dto\StatsResponseDTO$StatsResponseDTOBuilder.class
+com\factory\machine_events\dto\EventRequestDTO.class
+com\factory\machine_events\dto\TopDefectLineDTO.class
+com\factory\machine_events\entity\EventEntity.class
+com\factory\machine_events\repository\EventRepository.class
