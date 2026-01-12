@@ -72,15 +72,16 @@ EventEntity:
 - defectCount = -1 is ignored in statistics.
 
 ---
-## Setup & run instructions
-## for testing  the test cases that are provided in EventServiceTest.java
-bash:mvn test
+# Setup & run instructions 
+
+- for testing  the test cases that are provided in EventServiceTest.java
+- bash:mvn test
 ---
 ## How to Run
-bash :mvn spring-boot:run
+- bash :mvn spring-boot:run
 ---
-To view the database entity we can use from the local spring-boot run
-"https://localhost:8080/h2-console" 
+- To view the database entity we can use from the local spring-boot run
+- "https://localhost:8080/h2-console" 
 ---
 
 # What you would improve with more time
