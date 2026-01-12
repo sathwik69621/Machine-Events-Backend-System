@@ -1,11 +1,12 @@
-**Machine Events Backend System**
-**📌 Overview**
+# Machine Events Backend System
+
+# 📌 Overview
 This project is a backend service that ingests machine events in batches, validates and deduplicates them, stores them safely, and provides analytical statistics through REST APIs.
 
 The system is designed to be thread-safe, scalable, and easy to extend.
 
-**Tech Stack**
-Java 21
+# Tech Stack
+Java 21,
 Spring Boot
 Spring Data JPA
 H2 In-memory Database
@@ -14,25 +15,25 @@ Maven
 JUnit 5
 
 
-**Architecture**
+# Architecture
 Controller → Service → Repository → Database
 
-**Controller**: Handles REST APIs.
-**Service**: Business logic, validation, deduplication, concurrency handling.
-**Repository**: Database access using JPA.
-**Database**: H2 in-memory database.
+**Controller** : Handles REST APIs.
+**Service** : Business logic, validation, deduplication, concurrency handling.
+**Repository** : Database access using JPA.
+**Database** : H2 in-memory database.
 
-**🔄 Deduplication & Update Rules**
+# 🔄 Deduplication & Update Rules
 Same eventId + identical payload → ignored (deduplicated).
 Same eventId + different payload + newer receivedTime → updated.
 Same eventId + different payload + older receivedTime → ignored.
 
-**🔐 Thread Safety**
+# 🔐 Thread Safety
 Database unique constraint on eventId.
 Transactional service layer.
 Concurrent inserts handled safely.
 
-**Data Model**
+# Data Model
 **EventEntity:**
 eventId
 eventTime
